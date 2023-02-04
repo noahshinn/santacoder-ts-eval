@@ -3,6 +3,6 @@ python -m inference \
     --root-dataset humaneval \
     --lang ts \
     --temperature 0.2 \
-    --batch-size 20 \
+    --batch-size 50 \
     --completion-limit 20 \
     --output-dir-prefix santacoder-base
